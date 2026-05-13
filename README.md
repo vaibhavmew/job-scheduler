@@ -1,3 +1,4 @@
+# Job Scheduler
 - The job scheduler executes a batch of jobs. 
 - The failed jobs are pushed into a queue and executed again after a configured time interval.
 - One of the goroutine workers will pick the batch to be executed.
